@@ -1,5 +1,7 @@
 # Full-Stack Task Manager
 
+![Task Manager Screenshot](./task-manager.png)
+
 A full-stack task management application built with React, Express, Node.js, and SQLite.
 
 ## Features
