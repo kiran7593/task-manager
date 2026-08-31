@@ -1,5 +1,7 @@
 # Full-Stack Task Manager
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-blue)](https://task-manager-seven-alpha-18.vercel.app/)
+
 ![Task Manager Screenshot](./task-manager.png)
 
 A full-stack task management application built with React, Express, Node.js, and SQLite.
