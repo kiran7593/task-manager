@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState('')
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/tasks')
+    fetch('https://kiran-task-manager-api.onrender.com/api/tasks')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Failed to load tasks')
@@ -36,7 +36,7 @@ function App() {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/tasks', {
+      const response = await fetch('https://kiran-task-manager-api.onrender.com/api/tasks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ function App() {
     }
 
     try {
-      const response = await fetch(`http://localhost:5000/api/tasks/${id}`, {
+      const response = await fetch(`https://kiran-task-manager-api.onrender.com/api/tasks/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -92,7 +92,7 @@ function App() {
 
   async function deleteTask(id) {
     try {
-      const response = await fetch(`http://localhost:5000/api/tasks/${id}`, {
+      const response = await fetch(`https://kiran-task-manager-api.onrender.com/api/tasks/${id}`, {
         method: 'DELETE',
       })
 
